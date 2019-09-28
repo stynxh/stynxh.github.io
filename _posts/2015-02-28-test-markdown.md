@@ -1,7 +1,7 @@
 ---
 layout: post
 title: markdown sample
-subtitle: It's sample for markdown
+subtitle: It's sample to markdown page
 gh-repo: daattali/beautiful-jekyll
 gh-badge:
   - star
