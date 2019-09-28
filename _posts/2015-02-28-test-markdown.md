@@ -9,6 +9,8 @@ gh-badge:
   - follow
 tags:
   - markdown
+  - markdown example
+  - markdown sample
 comments: true
 published: true
 bigimg: /img/path.jpg
