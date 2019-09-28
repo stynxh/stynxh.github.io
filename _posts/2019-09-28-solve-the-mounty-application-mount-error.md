@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Solve the Mounty application mount error
+title: Solve the Mounty application re-mount error
 date: '2019-09-28'
 tags:
   - MacOS
@@ -22,4 +22,3 @@ If this error occurs, you can use the following workaround.
 
 {: .box-note}
 After reconnecting the external disk in the Windows OS, select ***"Safely Remove"*** from the system tray to extract the external disk and connect it to Mac OS again.
-
