@@ -1,11 +1,18 @@
 ---
 layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
+title: markdown sample
+subtitle: It's sample for markdown
 gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
+gh-badge:
+  - star
+  - fork
+  - follow
+tags:
+  - markdown
 comments: true
+published: true
+bigimg: /img/path.jpg
+date: '2019-09-28'
 ---
 
 You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
