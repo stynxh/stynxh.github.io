@@ -9,6 +9,8 @@ tags:
   - Mounty
   - troubleshooting
   - 오류 해결
+category:
+  - troubleshooting
 ---
 **Mounty**는 맥 OS에서 NTFS 파일시스템으로 만들어진 외장 디스크, USB메모리 등을 사용할 수 있게 해주는 편리한 프로그램이다.
 
