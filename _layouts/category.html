@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: page
 ---
+<br>
+All post of a {{ site.categories[category] }} category {{ site.categories[category].size }}
 <ul class="posts-list">
   
   {% assign category = page.category | default: page.title %}
