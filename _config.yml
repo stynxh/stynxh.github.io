@@ -21,7 +21,9 @@ description: A writing that my study, my hobby, my opinion
 # List of links in the navigation bar
 
 navbar-links:
-  Category: "category"
+  Category:
+    - TroubleShooting: "/category/troubleshooting"
+    - Study: "/category/study"
   Link: 
     - Prose.io: "https://prose.io/"
 #  About Me: "aboutme"
