@@ -1,14 +1,14 @@
 ---
-layout: page
+layout: default
 ---
-<br>
-All post of a {{ site.categories[category] }} category {{ site.categories[category].size }}
-<ul class="posts-list">
-  
+<ul class="posts-list">  
   {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
+    <h2><center> 
+      All post of a {{ site.categories[category] | first }} category {{ site.categories[category] | last | size }}
+    </center></h2> 
     <li>
-      <h3>
+      <h3 class="post-title">
         <a href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
         </a>
