@@ -8,6 +8,8 @@ tags:
   - Mojave
   - Mounty
   - troubleshooting
+category:
+  - troubleshooting
 ---
 **Mounty** is a tiny tool to re-mount write-protected NTFS volumes under Mac OS X in read-write mode.
 
