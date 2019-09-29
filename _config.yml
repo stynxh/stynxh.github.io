@@ -20,9 +20,10 @@ description: A writing that my study, my hobby, my opinion
 
 # List of links in the navigation bar
 
-# 2019.09.28 현재는 메뉴바가 필요없다고 판단되어 주석처리함
-# 메뉴가 필요하면 주석해제하고 만들것! 
-#navbar-links:
+navbar-links:
+  Category: "category"
+  Link: 
+    - Prose.io: "https://prose.io/"
 #  About Me: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
