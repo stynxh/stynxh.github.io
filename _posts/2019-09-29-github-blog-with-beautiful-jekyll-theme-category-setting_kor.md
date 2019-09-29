@@ -43,9 +43,9 @@ navbar-links:
 
 /category 디렉토리를 만들고 각 카테고리 이름으로 .md 파일을 만든다.
 
-![p1](_posts/attached-img/2019-09-29-jekyll-theme-add-category_1.png)
+![2019-09-29-jekyll-theme-add-category_1.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_1.png)
 
-![_posts/attached-img/2019-09-29-jekyll-theme-add-category_2.png]
+![2019-09-29-jekyll-theme-add-category_2.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_2.png)
 
 .md 파일의 내용은 다음과 같다.  
 
@@ -86,6 +86,6 @@ layout: default
 
 ## 결과
 
-![_posts/attached-img/2019-09-29-jekyll-theme-add-category_3.png]
+![2019-09-29-jekyll-theme-add-category_3.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_3.png)
 
-![_posts/attached-img/2019-09-29-jekyll-theme-add-category_4.png]
+![2019-09-29-jekyll-theme-add-category_4.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_4.png)
