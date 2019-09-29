@@ -5,16 +5,13 @@ layout: default
   {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
     <h2><center> 
-      All post of a {{ site.categories[category] | first }} category {{ site.categories[category] | last | size }}
+      All post of a {{ post | first }} category {{ post | last | size }}
     </center></h2> 
     <li>
-      <h3 class="post-title">
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-        </a>
-        <small>{{ post.date | date_to_string }}</small>
-      </h3>
-    </li>
+        <time>
+          {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
+        </time>
+        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </li>
   {% endfor %}
-  
 </ul>
