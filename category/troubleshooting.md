@@ -1,5 +1,5 @@
 ---
 layout: category
 title: troubleshooting
-permalink: category/troubleshooting
+permalink: /category/troubleshooting
 ---
