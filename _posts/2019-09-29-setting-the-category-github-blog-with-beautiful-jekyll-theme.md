@@ -1,7 +1,14 @@
 ---
 layout: post
-published: false
+published: true
 title: Setting the category github blog with beautiful jekyll theme
+category:
+  - study
+tags:
+  - github blog
+  - jekyll
+  - beautiful-jekyll theme
+date: '2019-09-29'
 ---
 If you use the Beautiful Jekyll theme on your Github blog, you can set the categories as follows.
 
@@ -84,4 +91,3 @@ layout: default
 ![2019-09-29-jekyll-theme-add-category_3.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_3.png)
 
 ![2019-09-29-jekyll-theme-add-category_4.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_4.png)
-
