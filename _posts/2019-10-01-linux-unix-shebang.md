@@ -1,7 +1,16 @@
 ---
 layout: post
-published: false
+published: true
 title: Linux/Unix 환경에서 shebang 오류 해결
+date: '2019-10-01'
+category:
+  - troubleshooting
+tags:
+  - shebang
+  - troubleshooting
+  - dos2unix
+  - line ending characters
+  - 줄바꿈 문자
 ---
 ### 현상
 
