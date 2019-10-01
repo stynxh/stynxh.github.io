@@ -16,18 +16,21 @@ tags:
 
 Linux/Unix 환경에서 `shebang` 이 포함되어있는 스크립트를 실행할 때, 다음과 같은 오류가 나는 경우가 있다.
 
+{: .box-error}
+**Error:** /usr/bin/env: ‘python3\r’: No such file or directory
+
+
 ```bash
-$cat hello.py
+$ cat hello.py
 #!/usr/bin/env python3
 
 print("hello world")
 
-$./hello.py
+$ ./hello.py
 /usr/bin/env: ‘python3\r’: No such file or directory
 ```
 
-{: .box-error}
-**Error:** /usr/bin/env: ‘python3\r’: No such file or directory
+
 
 
 
@@ -36,6 +39,9 @@ $./hello.py
 이 오류는 **line ending characters (줄바꿈 문자)** 때문에 생기는 문제이다.
 
 해당 스크립트를 작성하거나 수정한 시스템이 Windows OS 플랫폼일 경우, Windows OS 의 줄바꿈 문자인 **CR + LF** 가 스크립트에 적용이 되게 되는데, Linux/Unix OS 의 경우 줄바꿈 문자가 **LF** 이기 때문에 해당 스크립트를 정상적으로 인식하지 못하게 되는 것이다.
+
+
+
 
 
 
@@ -58,7 +64,5 @@ $ ./hello.py
 hello world
 
 $
+
 ```
-
-
-
