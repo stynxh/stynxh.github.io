@@ -23,7 +23,7 @@ description: A writing that my study, my hobby, my opinion
 navbar-links:
   Category:
     - TroubleShooting: "/category/troubleshooting"
-    - Study: "/category/study"
+    - Research: "/category/research"
   Link: 
     - Prose.io: "https://prose.io/"
 #  About Me: "aboutme"
