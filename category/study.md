@@ -1,5 +1,5 @@
 ---
 layout: category
-title: study
-permalink: category/study
+title: research
+permalink: category/research
 ---
