@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Setting the category github blog with beautiful jekyll theme
 category:
-  - study
+  - research
 tags:
   - github blog
   - jekyll
