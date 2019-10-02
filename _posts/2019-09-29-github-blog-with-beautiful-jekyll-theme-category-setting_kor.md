@@ -4,7 +4,7 @@ published: true
 title: github blog with Beautiful Jekyll 테마 카테고리 설정
 date: '2019-09-29'
 category:
-  - study
+  - research
 tags:
   - github blog
   - jekyll
