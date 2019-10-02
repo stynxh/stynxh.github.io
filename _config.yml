@@ -24,6 +24,7 @@ navbar-links:
   Category:
     - TroubleShooting: "/category/troubleshooting"
     - Research: "/category/research"
+  Tags: "/tags.html"
   Link: 
     - Prose.io: "https://prose.io/"
 #  About Me: "aboutme"
