@@ -74,9 +74,11 @@ comments: true
         </li>
         {% endif %}
       </ul>
-
+      <p>
       {% if page.comments != false %}
+      <div class="disqus-comments">
         {% include disqus_comments.html %}
+      </div>
       {% endif %}  
       <!--
         <div class="disqus-comments">
