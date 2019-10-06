@@ -65,12 +65,12 @@ Step 7에서 생성한 `/_includes/disqus_comments.html` 파일의 내용 수정
 ```javascript
 ...
 ...
-<script>
+    <script>
     
-    var disqus_config = function () {
-      this.page.url = '{{ page.url | absolute_url }}';
-      this.page.identifier = '{{ page.url | absolute_url }}';
-    };    
+        var disqus_config = function () {
+          this.page.url = \'\{\{ page.url | absolute_url \}\}\';
+          this.page.identifier = \'\{\{ page.url | absolute_url \}\}\';
+        };    
 ...
 ...
 ...
@@ -108,14 +108,13 @@ comments: true
 ...
 ...
 ...
-{% if page.comments != false %}
-	{% include disqus_comments.html %}
-{% endif %}  
+    \{\% if page.comments != false \%\}
+	    \{\% include disqus_comments.html \%\}
+    \{\% endif \%\}  
 ```
 
 {: .box-note}
 **Note 1:** 상단에 **comments: true** 추가  
-
 **Note 2:** 하단에 코드 추가
 
 
