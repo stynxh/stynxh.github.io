@@ -62,16 +62,16 @@ website 이름 입력
 
 Step 7에서 생성한 `/_includes/disqus_comments.html` 파일의 내용 수정
 ```javascript
-...
-...
+~~~
+~~~
 <script>
 	var disqus_config = function () {
     	this.page.url = '{{ page.url | absolute_url }}';
       	this.page.identifier = '{{ page.url | absolute_url }}';
     };    
-...
-...
-...
+~~~
+~~~
+~~~
 ```
 
 {: .box-note}
