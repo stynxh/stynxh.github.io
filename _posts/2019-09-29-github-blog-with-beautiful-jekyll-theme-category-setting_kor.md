@@ -16,7 +16,7 @@ Github 블로그에 Beautiful Jekyll 테마를 사용할 경우 다음과 같이
 
 **_config.yml** 파일 수정
 
-~~~
+```markdown
 ...
 ...
 ...
@@ -33,7 +33,7 @@ navbar-links:
 ...
 ...
 ...
-~~~
+```
 
 {: .box-note}
 **Note:** 추후 카테고리가 추가될 경우, 새로운 카테고리 이름을 추가하여 _config.yml 파일을 다시 수정한다.
@@ -49,13 +49,13 @@ navbar-links:
 
 .md 파일의 내용은 다음과 같다.  
 
-~~~
+```markdown
 ---
 layout: category
 title: study
 permalink: category/study
 ---
-~~~
+```
 
 {: .box-note}
 **Note:** 추후 카테고리가 추가될 경우, 새로운 카테고리 이름으로 .md 파일을 추가해준다.
@@ -65,7 +65,8 @@ permalink: category/study
 
 /_layouts 디렉토리에 **category.html** 파일을 만들고 다음과 같이 작성한다.
 
-~~~
+{% raw %}
+```javascript
 ---
 layout: default
 ---
@@ -81,7 +82,8 @@ layout: default
     </li>
   {% endfor %}
 </ul>
-~~~
+```
+{% endraw %}
 
 
 ## 결과
