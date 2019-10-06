@@ -16,7 +16,7 @@ If you use the Beautiful Jekyll theme on your Github blog, you can set the categ
 
 Edit the **_config.yml** file
 
-~~~
+```markdown
 ...
 ...
 ...
@@ -33,7 +33,7 @@ navbar-links:
 ...
 ...
 ...
-~~~
+```
 
 {: .box-note}
 **Note:** If a category is added, modify the **_config.yml** file again by adding a new category name.
@@ -50,13 +50,13 @@ Create a **/category** directory and create an .md file with each category name.
 
 The contents of the .md file are as follows.  
 
-~~~
+```markdown
 ---
 layout: category
 title: study
 permalink: category/study
 ---
-~~~
+```
 
 {: .box-note}
 **Note:** If a category is added, add a .md file with the new category name.
@@ -66,7 +66,8 @@ permalink: category/study
 
 Create a **category.html** file in the **/ _layouts** directory and write:
 
-~~~
+{% raw %}
+```javascript
 ---
 layout: default
 ---
@@ -82,7 +83,8 @@ layout: default
     </li>
   {% endfor %}
 </ul>
-~~~
+```
+{% endraw %}
 
 
 
