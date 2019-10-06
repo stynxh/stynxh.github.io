@@ -62,19 +62,19 @@ website 이름 입력
 
 Step 7에서 생성한 `/_includes/disqus_comments.html` 파일의 내용 수정
 
-~~~
+```javascript
 ...
 ...
 <script>
     
     var disqus_config = function () {
-      this.page.url = \'{{ page.url | absolute_url }}\';
-      this.page.identifier = \'{{ page.url | absolute_url }}\';
+      this.page.url = '{{ page.url | absolute_url }}';
+      this.page.identifier = '{{ page.url | absolute_url }}';
     };    
 ...
 ...
 ...
-~~~
+```
 
 {: .box-note}
 **Note:** 원본 내용에서는 **var disqus_config = function ()** 부분이 주석 처리 되어 있으나 주석을 해제하고 함수 내용 변경
@@ -85,7 +85,7 @@ Step 7에서 생성한 `/_includes/disqus_comments.html` 파일의 내용 수정
 본인의 Github 블로그의 `/_config.yml` 파일을 확인하여 **url** 값이 설정되어 있는지 확인. 
 만약 설정되어 있지 않다면 본인의 블로그 주소로 설정할 것.
 
-~~~
+```
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
@@ -93,14 +93,14 @@ Step 7에서 생성한 `/_includes/disqus_comments.html` 파일의 내용 수정
 # url is the the website domain URL without a trailing slash
 url: "https://stynxh.github.io"
 ---
-~~~
+```
 
 
 ## Step 10
 
 `/_layouts/post.html` 파일 수정
 
-~~~
+```javascript
 ---
 layout: base
 comments: true
@@ -111,10 +111,11 @@ comments: true
 {% if page.comments != false %}
 	{% include disqus_comments.html %}
 {% endif %}  
-~~~
+```
 
 {: .box-note}
-**Note 1:** 상단에 **comments: true** 추가
+**Note 1:** 상단에 **comments: true** 추가  
+
 **Note 2:** 하단에 코드 추가
 
 
