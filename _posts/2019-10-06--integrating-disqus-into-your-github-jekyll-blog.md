@@ -117,7 +117,7 @@ comments: true
 {% endraw %}
 
 {: .box-note}
-**Note 1:** Add **comments: true** at the top 
+**Note 1:** Add **comments: true** at the top  
 **Note 2:** Add code at the bottom
 
 
