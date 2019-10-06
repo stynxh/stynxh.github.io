@@ -86,7 +86,7 @@ Step 7에서 생성한 `/_includes/disqus_comments.html` 파일의 내용 수정
 본인의 Github 블로그의 `/_config.yml` 파일을 확인하여 **url** 값이 설정되어 있는지 확인. 
 만약 설정되어 있지 않다면 본인의 블로그 주소로 설정할 것.
 
-```
+```markdown
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
@@ -101,6 +101,7 @@ url: "https://stynxh.github.io"
 
 `/_layouts/post.html` 파일 수정
 
+{% raw %}
 ```javascript
 ---
 layout: base
@@ -113,6 +114,7 @@ comments: true
 	    {% include disqus_comments.html %}
     {% endif %}  
 ```
+{% endraw %}
 
 {: .box-note}
 **Note 1:** 상단에 **comments: true** 추가  
