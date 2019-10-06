@@ -63,17 +63,20 @@ website 이름 입력
 Step 7에서 생성한 `/_includes/disqus_comments.html` 파일의 내용 수정
 
 ```javascript
+<!--
 ...
 ...
 <script>
 	var disqus_config = function () {
-    	this.page.url = <code>'{{ page.url | absolute_url }}'</code>;
+    	this.page.url = '{{ page.url | absolute_url }}';
       	this.page.identifier = '{{ page.url | absolute_url }}';
     };    
 ...
 ...
 ...
+-->
 ```
+
 
 {: .box-note}
 **Note:** 원본 내용에서는 **var disqus_config = function ()** 부분이 주석 처리 되어 있으나 주석을 해제하고 함수 내용 변경
