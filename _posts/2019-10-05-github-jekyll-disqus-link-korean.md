@@ -63,7 +63,7 @@ website 이름 입력
 Step 7에서 생성한 `/_includes/disqus_comments.html` 파일의 내용 수정
 
 {% raw %}
-```markdown
+```javascript
 ...
 ...
 <script>
