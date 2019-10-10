@@ -25,9 +25,7 @@ layout: default
 
 ## 해결
 
-{% raw %}
-{% raw %} ... {% endraw %} 로 감싸주면 된다.
-{% endraw %}
+{ % raw % } ... { % endraw % } 로 감싸주면 된다.
 
 {% raw %}
 ```javascript
