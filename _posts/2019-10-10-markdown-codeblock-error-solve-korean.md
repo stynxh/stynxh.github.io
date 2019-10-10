@@ -12,7 +12,7 @@ tags:
 ---
 ## 현상
 
-MD파일 작성 시 코드를 표시하고 싶을때 코드 블록 (''' code ''')을 사용하는데 html, javascript 코드의 경우 변수명이 아닌 변수에 저장된 값이 출력되는 경우가 있다.
+MD파일 작성 시 코드를 표시하고 싶을때 코드 블록 (``` code ```)을 사용하는데 html, javascript 코드의 경우 변수명이 아닌 변수에 저장된 값이 출력되는 경우가 있다.
 
 ```javascript
 ---
@@ -25,7 +25,10 @@ layout: default
 
 ## 해결
 
-{ % raw % } ... { % endraw % } 로 감싸주면 된다.
+{ % raw % } codeblock { % endraw % } 로 감싸주면 된다.
+
+{: .box-note}
+**Note:** `{` 와 `%` 는 공백없이 붙여서 사용해야 한다.
 
 {% raw %}
 ```javascript
@@ -37,3 +40,4 @@ layout: default
   <h4>Posts in {{ category }} </h4>
 ```
 {% endraw %}
+
