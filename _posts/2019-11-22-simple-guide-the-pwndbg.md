@@ -1,8 +1,13 @@
 ---
 layout: post
-published: false
+published: true
 title: simple guide the pwndbg
 date: '2019-11-22'
+category:
+  - research
+tags:
+  - gdb
+  - pwndbg
 ---
 ## install the pwndbg
 ```
@@ -69,5 +74,3 @@ si       >>>    excute current instruction. step into the function.
 ni       >>>    excute current instruction. step over the function.
 finish   >>>    excute and exit current function.
 ```
-
-
