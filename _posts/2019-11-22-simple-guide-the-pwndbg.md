@@ -17,12 +17,12 @@ cd pwndbg
 ```
 
 ## gdb with python
-1. argument
+argument
 ```
 (gdb)run $(python -c 'print "A" * 200')
 ```
 
-2. standard input
+standard input
 ```
 (gdb) r <<< $(python -c 'print "A"*1')
 ```
@@ -43,11 +43,11 @@ x / [Length] [Format] [Address]
 x/5x 0x08041680
 x/s $r0
 x/3i 0x08041680
-
+```
 o(octal), x(hex), d(decimal), u(unsigned decimal),
 t(binary), f(float), a(address), i(instruction), c(char), s(string)
 and z(hex, zero padded on the left).
-```
+
 
 ### watchpoint
 ```
