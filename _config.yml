@@ -21,9 +21,9 @@ url: "https://stynxh.github.io"
 # List of links in the navigation bar
 
 navbar-links:
-  Category:
-    - TroubleShooting: "/category/troubleshooting"
-    - Research: "/category/research"
+#  Category:
+#    - TroubleShooting: "/category/troubleshooting"
+#    - Research: "/category/research"
   Tags: "/tags"
   Link: 
     - Prose.io: "https://prose.io/"
