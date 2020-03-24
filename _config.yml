@@ -21,6 +21,7 @@ url: "https://stynxh.github.io"
 # List of links in the navigation bar
 
 navbar-links:
+  Search: "/search"
 #  Category:
 #    - TroubleShooting: "/category/troubleshooting"
 #    - Research: "/category/research"
