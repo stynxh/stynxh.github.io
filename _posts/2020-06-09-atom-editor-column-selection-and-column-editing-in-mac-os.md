@@ -22,5 +22,5 @@ if there is such a document, the feature used when you want to change **?** to *
 ### solution
 
 Place the cursor in the first column of the position to edit, and press the ***ctrl + shift + down arrow*** key.
-![2020-06-09-atom-column-edit.gif]({{site.baseurl}}/img/attached-post/2020-06-09-atom-column-edit.gif)
 
+![2020-06-09-atom-column-edit.gif]({{site.baseurl}}/img/attached-post/2020-06-09-atom-column-edit.gif)
