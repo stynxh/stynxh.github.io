@@ -27,4 +27,4 @@ good?!!
 ### 해결
 
 커서를 편집할 위치의 가장 첫번째 열에 놓고, ***ctrl + shift + down arrow*** 키를 누른다.
-![2020-06-09-atom-column-edit.gif]({{site.baseurl}}/img/2020-06-09-atom-column-edit.gif)
+![2020-06-09-atom-column-edit.gif]({{site.baseurl}}/img/attached-post/2020-06-09-atom-column-edit.gif)
