@@ -4,7 +4,10 @@ published: true
 title: Atom editor column selection and column editing in mac OS
 date: '2020-06-09'
 tags:
-  - Mac OS - atom - column selection - column edit
+  - Mac OS
+  - atom
+  - column selection
+  - column edit
 ---
 ### situation
 
