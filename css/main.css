@@ -340,7 +340,8 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-  font-size: 30px;
+  font-size: 25px;
+/*--  font-size: 30px;   원래 크기--*/
   margin-top: 0;
 }
 .post-preview .post-subtitle {
@@ -531,10 +532,12 @@ footer .theme-by {
     padding: 150px 0;
   }
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 50px;
+/*--  font-size: 80px;   원래 크기--*/
   }
   .intro-header .post-heading h1 {
-    font-size: 50px;
+    font-size: 30px;
+/*--  font-size: 50px;   원래 크기--*/
   }
   .intro-header.big-img .img-desc {
     font-size: 14px;
