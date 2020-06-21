@@ -19,6 +19,14 @@ tags:
 # apt-get install -y google-chrome-stable
 ```  
 
+If you see the following error message when installing the Chrome browser,
+
+{: .box-error}
+E: Unable to locate package google-chrome-stable
+
+refer to [Install Google Chrome on Ubuntu linux from command line](../2020-06-21-install-google-chrome-on-ubuntu-linux-from-command-line-eng/) document.
+
+
 ## install chromedriver
 
 ```bash
