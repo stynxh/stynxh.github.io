@@ -18,6 +18,14 @@ tags:
 # apt-get -y update
 # apt-get install -y google-chrome-stable
 ```  
+  
+만약, 크롬 브라우저 설치할 때 다음의 경고 메시지를 본다면
+
+{: .box-error}
+E: Unable to locate package google-chrome-stable
+
+[우분투 리눅스에서 커맨드라인으로 구글 크롬 설치하기](2020-06-21-Install-Google-Chrome-on-Ubuntu-linux-from-command-line-kor/) 문서를 참고 바람  
+
 
 ## chromedriver 설치
 
