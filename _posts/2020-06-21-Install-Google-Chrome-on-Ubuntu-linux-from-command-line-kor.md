@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: 테스트 우분투 리눅스에서 커맨드라인으로 구글 크롬 (chrome) 설치하기
+title: 우분투 리눅스에서 커맨드라인으로 구글 크롬 (chrome) 설치하기
 tags:
   - ubuntu
   - linux
