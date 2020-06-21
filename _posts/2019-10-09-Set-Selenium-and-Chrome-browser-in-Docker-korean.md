@@ -19,7 +19,7 @@ tags:
 # apt-get install -y google-chrome-stable
 ```  
   
-만약, 크롬 브라우저 설치할 때 다음의 경고 메시지를 본다면
+만약, 크롬 브라우저를 설치할 때 다음의 경고 메시지를 본다면
 
 {: .box-error}
 E: Unable to locate package google-chrome-stable
