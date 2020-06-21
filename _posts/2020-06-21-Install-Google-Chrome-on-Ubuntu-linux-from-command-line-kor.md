@@ -11,7 +11,8 @@ tags:
   - chrome install
 date: '2020-06-21'
 ---
-### STEP 1. sources.list 수정
+### STEP 1. sources.list 수정  
+
 ```bash
 sudo vi /etc/apt/sources.list
 ```
@@ -55,8 +56,4 @@ Target Packages (main/binary-amd64/Packages) is configured multiple times
 이것은 구글 크롬 패키지가 특수한 파일 **/etc/apt/sources.list.d/google-chrome.list** 을 생성하기 때문인데 이 파일을 삭제하면 해결할 수 있다.
 ```bash
 sudo rm /etc/apt/sources.list.d/google-chrome.list
-```  
-  
-  
-
-
+```
