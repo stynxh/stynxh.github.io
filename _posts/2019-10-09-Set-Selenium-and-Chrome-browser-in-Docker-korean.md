@@ -24,7 +24,7 @@ tags:
 {: .box-error}
 E: Unable to locate package google-chrome-stable
 
-[우분투 리눅스에서 커맨드라인으로 구글 크롬 설치하기](2020-06-21-Install-Google-Chrome-on-Ubuntu-linux-from-command-line-kor/) 문서를 참고 바람  
+[우분투 리눅스에서 커맨드라인으로 구글 크롬 설치하기](../2020-06-21-Install-Google-Chrome-on-Ubuntu-linux-from-command-line-kor/) 문서를 참고 바람  
 
 
 ## chromedriver 설치
