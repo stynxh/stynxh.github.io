@@ -26,12 +26,14 @@ deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
 ```
 
 
+
 ### STEP 2. Download Google's signing key
 
 ```bash
 sudo apt-get install wget
 wget https://dl.google.com/linux/linux_signing_key.pub
 ```
+
 
 
 ### STEP 3. Google Chrome authentication key added to apt package manager
@@ -42,12 +44,14 @@ sudo apt-key add linux_signing_key.pub
 ```
 
 
+
 ### STEP 4. apt update and install google chrome
 
 ```bash
 sudo apt update
 sudo apt install google-chrome-stable
 ```
+
 
 
 ### + Appendix
