@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: 'How to fix <OSError: [Errno 99] Cannot assign requested address> error when running Jupyter notebook on Linux'
+title: 'How to fix "OSError: [Errno 99] Cannot assign requested address" error when running Jupyter notebook on Linux'
 date: '2020-06-27'
 tags:
   - jupyter notebook
