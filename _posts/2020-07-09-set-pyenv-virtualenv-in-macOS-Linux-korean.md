@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: 'pyenv 및  pyenv-virtualenv 로 python 개발환경 구축하기 - macOS, Linux'
-date: '2020-06-09'
+date: '2020-07-09'
 tags:
   - macOS
   - linux
