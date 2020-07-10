@@ -89,9 +89,18 @@ pyenv virtualenv 3.5.3 <name>
 pyenv activate <name>
 pyenv deactivate
 ```
+만약 가상환경 실행 시 다음과 같은 에러메시지가 나온다면
+
+{: .box-error}
+Failed to activate virtualenv.  
+Perhaps pyenv-virtualenv has not been loaded into your shell properly.  
+Please restart current shell and try again.
+
+[pyenv activate 실행시 "Failed to activate virtualenv." 에러 메시지 해결법](../2020-07-10-solve-pyenv-activate-error-korean/) 문서를 참고 바람
+  
 
 ### 참고
 
-- [https://github.com/pyenv](https://github.com/pyenv/)/
+- [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv)/
 - [https://github.com/pyenv/pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
 - [https://opensource.com/article/19/5/python-3-default-mac](https://opensource.com/article/19/5/python-3-default-mac)
