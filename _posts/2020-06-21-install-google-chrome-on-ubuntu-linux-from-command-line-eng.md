@@ -6,10 +6,7 @@ date: '2020-06-21'
 tags:
   - ubuntu
   - linux
-  - google chrome
   - chrome
-  - install
-  - chrome install
 ---
 ### STEP 1. edit **sources.list** file
 
@@ -57,12 +54,10 @@ sudo apt install google-chrome-stable
 ### + Appendix
 If you see the following warning message when doing an apt update,
 
-{: .box-warning} 
+{: .box-warning}
 Target Packages (main/binary-amd64/Packages) is configured multiple times
 
 This is because the Google Chrome package creates a special file **/etc/apt/sources.list.d/google-chrome.list**, which can be fixed by deleting this file.
 ```bash
 sudo rm /etc/apt/sources.list.d/google-chrome.list
 ```  
-  
-

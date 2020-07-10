@@ -4,7 +4,7 @@ published: true
 title: ' Mounty 마운트 오류 해결'
 date: '2019-09-28'
 tags:
-  - MacOS
+  - macOS
   - Mojave
   - Mounty
   - troubleshooting

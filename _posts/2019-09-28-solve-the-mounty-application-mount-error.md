@@ -4,7 +4,7 @@ published: true
 title: Solve the Mounty application re-mount error
 date: '2019-09-28'
 tags:
-  - MacOS
+  - macOS
   - Mojave
   - Mounty
   - troubleshooting

@@ -6,7 +6,8 @@ date: '2020-06-27'
 tags:
   - jupyter notebook
   - linux
-
+  - 오류 해결
+  - troubleshooting
 ---
 ### 상황
 리눅스 환경에서 jupyter notebook 을 실행할 때, 다음의 에러 메시지를 보게 되는 경우가 있다.
@@ -64,5 +65,3 @@ $ jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root
         http://e999943e0fff:8888/?token=3c3fb4baaaaaaaaaa387c52d6fd2f6aaaaaaaaaa6d761c01
      or http://127.0.0.1:8888/?token=3c3fb4baaaaaaaaaa387c52d6fd2f6aaaaaaaaaa6d761c01
 ```
-
-  

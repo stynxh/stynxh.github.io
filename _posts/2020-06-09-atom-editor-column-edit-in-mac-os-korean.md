@@ -4,7 +4,7 @@ published: true
 title: 맥OS 아톰 (atom) 에디터에서 열 편집하기
 date: '2020-06-09'
 tags:
-  - Mac OS
+  - macOS
   - atom
   - 열편집
   - column selection

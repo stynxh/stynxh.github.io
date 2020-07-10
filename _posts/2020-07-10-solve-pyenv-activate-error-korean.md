@@ -7,7 +7,8 @@ tags:
   - python
   - pyenv
   - pyenv-virtualenv
-  - error
+  - 오류 해결
+  - troubleshooting
 ---
 ### 상황
 

@@ -6,7 +6,7 @@ date: '2020-06-27'
 tags:
   - jupyter notebook
   - linux
-
+  - troubleshooting
 ---
 ### Situation
 When running jupyter notebook on Linux , you may see the following error message.

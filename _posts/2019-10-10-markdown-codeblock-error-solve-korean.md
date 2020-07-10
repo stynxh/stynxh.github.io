@@ -9,6 +9,8 @@ tags:
   - MD
   - Markdown
   - code block
+  - troubleshooting
+  - 오류 해결
 ---
 ## 현상
 
@@ -40,4 +42,3 @@ layout: default
   <h4>Posts in {{ category }} </h4>
 ```
 {% endraw %}
-
