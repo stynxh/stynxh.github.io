@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: '가상머신(VM) 우분투(ubuntu linux) 20.04 한글 설정'
-date: '2020-07-13'
+date: '2020-07-12'
 tags:
   - linux
   - ubuntu
