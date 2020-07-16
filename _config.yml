@@ -4,7 +4,7 @@
 title: stynxh.Blog
 
 # Short description of your site
-description: Computer science and Technology
+description: Computer Science and Information Technology
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -26,7 +26,7 @@ navbar-links:
 #    - TroubleShooting: "/category/troubleshooting"
 #    - Research: "/category/research"
   Tags: "/tags"
-  Link: 
+  Link:
     - Prose.io: "https://prose.io/"
 #  About Me: "aboutme"
 #  Resources:
