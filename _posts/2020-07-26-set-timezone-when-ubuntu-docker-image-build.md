@@ -13,13 +13,11 @@ tags:
 ---
 최근 Docker를 이용한 작업이 많아지면서 여러 이슈들이 있었는데, 그 중에서  많은 삽질을 했던 도커 컨테이너 시간대 설정 방법을 공유한다.
 
----
 
 ### 상황
 
 Dockerfile 을 이용해서 ubuntu docker image build 를 하게 되면 기본적으로 timezone 이 UTC로 되어 있다. 개발이나 간단한 로직 테스트 목적이라면 크게 문제가 되지 않지만, 시간과 관계되는 작업 (예 : 로그 출력 등) 을 하는 경우 timezone을 설정 해 주어야 한다.
 
----
 
 ### 해결
 
@@ -32,7 +30,6 @@ ENV TZ=Asia/Seoul
 RUN apt-get install -y tzdata
 ```
 
----
 
 ### 참고 - 명령어 설명
 
