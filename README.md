@@ -1,5 +1,5 @@
 # stynxh Blog
 * local test environment : [docker compose](https://hub.docker.com/r/bretfisher/jekyll-serve)
 
-# theme
-* [Type on Strap](https://github.com/stynxh/stynxh.github.io/origin_backup)
+# Theme
+* [Type on Strap](https://github.com/sylhare/Type-on-Strap)
