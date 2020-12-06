@@ -18,9 +18,8 @@ tags:
 
 If you installed anaconda with **default**, the location is as follow.
 
-{: .box-note}
-`C:\Users\[account]\anaconda3\envs\venv[virtual environment name]`                                     
-ex) C:\Users\stynxh\anaconda3\envs\venv
+> `C:\Users\[account]\anaconda3\envs\venv[virtual environment name]`                                     
+> ex) C:\Users\stynxh\anaconda3\envs\venv
 
 
 If it is not the above location, please check `C:\Users\[account]\.conda\environments.txt` file.

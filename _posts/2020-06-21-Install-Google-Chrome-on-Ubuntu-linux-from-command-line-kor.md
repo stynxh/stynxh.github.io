@@ -47,8 +47,7 @@ sudo apt install google-chrome-stable
 ### + 부록
 만약 apt update 를 할 때, 다음과 같은 경고 메시지를 본다면  
 
-{: .box-warning}
-Target Packages (main/binary-amd64/Packages) is configured multiple times  
+> Target Packages (main/binary-amd64/Packages) is configured multiple times  
 
 이것은 구글 크롬 패키지가 특수한 파일 **/etc/apt/sources.list.d/google-chrome.list** 을 생성하기 때문인데 이 파일을 삭제하면 해결할 수 있다.
 ```bash

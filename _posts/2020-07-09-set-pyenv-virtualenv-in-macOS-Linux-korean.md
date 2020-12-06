@@ -80,8 +80,7 @@ exec "$SHELL"
 pyenv virtualenv 3.5.3 <name>
 ```
 
-{: .box-note}
-**Note:** pyenv install 로 설치된 버전만 가상 환경 생성 가능함
+> **Note:** pyenv install 로 설치된 버전만 가상 환경 생성 가능함
 
 ### 가상환경 실행 및 해제
 
@@ -91,13 +90,12 @@ pyenv deactivate
 ```
 만약 가상환경 실행 시 다음과 같은 에러메시지가 나온다면
 
-{: .box-error}
-Failed to activate virtualenv.  
+> Failed to activate virtualenv.  
 Perhaps pyenv-virtualenv has not been loaded into your shell properly.  
 Please restart current shell and try again.
 
 [pyenv activate 실행시 "Failed to activate virtualenv." 에러 메시지 해결법](../2020-07-10-solve-pyenv-activate-error-korean/) 문서를 참고 바람
-  
+
 
 ### 참고
 

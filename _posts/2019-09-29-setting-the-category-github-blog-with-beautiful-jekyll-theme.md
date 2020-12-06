@@ -2,8 +2,6 @@
 layout: post
 published: true
 title: Setting the category github blog with beautiful jekyll theme
-category:
-  - research
 tags:
   - github blog
   - jekyll
@@ -35,17 +33,16 @@ navbar-links:
 ...
 ```
 
-{: .box-note}
-**Note:** If a category is added, modify the **_config.yml** file again by adding a new category name.
+> **Note:** If a category is added, modify the **_config.yml** file again by adding a new category name.
 
 
 ## Step 2
 
 Create a **/category** directory and create an .md file with each category name.
 
-![2019-09-29-jekyll-theme-add-category_1.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_1.png)
+![2019-09-29-jekyll-theme-add-category_1.png]({{site.baseurl}}/assets/img/post_included/2019-09-29-jekyll-theme-add-category_1.png)
 
-![2019-09-29-jekyll-theme-add-category_2.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_2.png)
+![2019-09-29-jekyll-theme-add-category_2.png]({{site.baseurl}}/assets/img/post_included/2019-09-29-jekyll-theme-add-category_2.png)
 
 
 The contents of the .md file are as follows.  
@@ -58,8 +55,7 @@ permalink: category/study
 ---
 ```
 
-{: .box-note}
-**Note:** If a category is added, add a .md file with the new category name.
+> **Note:** If a category is added, add a .md file with the new category name.
 
 
 ## Step 3
@@ -73,7 +69,7 @@ layout: default
 ---
 <ul class="posts-list">  
   {% assign category = page.category | default: page.title %}
-  <h4>Posts in {{ category }} ({{ site.categories[category].size }})</h4> 
+  <h4>Posts in {{ category }} ({{ site.categories[category].size }})</h4>
   {% for post in site.categories[category] %}   
     <li>
       <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -90,6 +86,6 @@ layout: default
 
 ## Result
 
-![2019-09-29-jekyll-theme-add-category_3.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_3.png)
+![2019-09-29-jekyll-theme-add-category_3.png]({{site.baseurl}}/assets/img/post_included/2019-09-29-jekyll-theme-add-category_3.png)
 
-![2019-09-29-jekyll-theme-add-category_4.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_4.png)
+![2019-09-29-jekyll-theme-add-category_4.png]({{site.baseurl}}/assets/img/post_included/2019-09-29-jekyll-theme-add-category_4.png)

@@ -3,8 +3,6 @@ layout: post
 published: true
 title: How to run chromedriver in selenium in docker with python3
 date: '2019-10-09'
-category:
-  - research
 tags:
   - selenium
   - chrome
@@ -21,8 +19,7 @@ tags:
 
 If you see the following error message when installing the Chrome browser,
 
-{: .box-error}
-E: Unable to locate package google-chrome-stable
+> E: Unable to locate package google-chrome-stable
 
 refer to [Install Google Chrome on Ubuntu linux from command line](../2020-06-21-install-google-chrome-on-ubuntu-linux-from-command-line-eng/) document.
 
@@ -32,7 +29,7 @@ refer to [Install Google Chrome on Ubuntu linux from command line](../2020-06-21
 ```bash
 # apt-get install -yqq unzip curl
 # wget -O /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE`/chromedriver_linux64.zip
-# unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/ 
+# unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
 ```  
 
 ## install selenium

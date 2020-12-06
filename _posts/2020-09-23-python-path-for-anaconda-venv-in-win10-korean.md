@@ -18,9 +18,8 @@ tags:
 
 Anaconda를 **기본설정** 으로 설치했다면, 위치는 다음과 같다.
 
-{: .box-note}
-`C:\Users\[계정명]\anaconda3\envs\venv[가상환경 이름]`                                     
-ex) C:\Users\stynxh\anaconda3\envs\venv
+> `C:\Users\[계정명]\anaconda3\envs\venv[가상환경 이름]`                                     
+> ex) C:\Users\stynxh\anaconda3\envs\venv
 
 
 만약, 위 경로가 아닐 경우 `C:\Users\[계정명]\.conda\environments.txt` 파일을 확인하면 가상환경의 위치를 알 수 있다.

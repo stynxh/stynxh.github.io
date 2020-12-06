@@ -2,8 +2,6 @@
 layout: post
 published: true
 title: Solve the html javasciprt code display error in md (markdown) file
-category:
-  - troubleshooting
 tags:
   - MD
   - Markdown
@@ -28,8 +26,7 @@ layout: default
 
 Wrap it in { % raw % } code { % endraw % } codeblock.
 
-{: .box-note}
-**Note:** `{` And `%` should be used without spaces.
+> **Note:** `{` And `%` should be used without spaces.
 
 {% raw %}
 ```javascript

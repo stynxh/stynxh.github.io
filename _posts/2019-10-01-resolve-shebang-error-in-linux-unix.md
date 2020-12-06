@@ -3,8 +3,6 @@ layout: post
 published: true
 title: Resolve shebang error in Linux/Unix
 date: '2019-10-01'
-category:
-  - troubleshooting
 tags:
   - shebang
   - troubleshooting
@@ -14,8 +12,7 @@ tags:
 ### Situation
 When running a script containing `shebang` in a Linux / Unix environment, the following error may occur:
 
-{: .box-error}
-**Error:** /usr/bin/env: ‘python3\r’: No such file or directory  
+> **Error:** /usr/bin/env: ‘python3\r’: No such file or directory  
 
 
 ```bash

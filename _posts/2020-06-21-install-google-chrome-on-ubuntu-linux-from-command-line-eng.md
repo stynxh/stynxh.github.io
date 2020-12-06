@@ -54,8 +54,7 @@ sudo apt install google-chrome-stable
 ### + Appendix
 If you see the following warning message when doing an apt update,
 
-{: .box-warning}
-Target Packages (main/binary-amd64/Packages) is configured multiple times
+> Target Packages (main/binary-amd64/Packages) is configured multiple times
 
 This is because the Google Chrome package creates a special file **/etc/apt/sources.list.d/google-chrome.list**, which can be fixed by deleting this file.
 ```bash

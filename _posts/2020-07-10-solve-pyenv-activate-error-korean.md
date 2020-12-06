@@ -14,19 +14,16 @@ tags:
 
 pyenv 와 pyenv-virtualenv 를 설치한 후  pyenv activate 를 실행시키려고 할 때, 다음과 같은 에러 메시지를 보게 되는 경우가 있다.
 
-{: .box-error}
-Failed to activate virtualenv.  
+> Failed to activate virtualenv.  
 Perhaps pyenv-virtualenv has not been loaded into your shell properly.  
 Please restart current shell and try again.
-
 
 
 ### 해결
 
 `Shell profile` 파일에서 다음의 사항을 확인할 것.
 
-{: .box-note}
-**Shell profile 파일:** 각자의 쉘 구성 환경에 따라 다르며 ~/.zshrc, ~/.bash_profile, ~/.bashrc 등이 있다.
+> **Shell profile 파일:** 각자의 쉘 구성 환경에 따라 다르며 ~/.zshrc, ~/.bash_profile, ~/.bashrc 등이 있다.
 
 ```bash
 $ cat ~/.zshrc

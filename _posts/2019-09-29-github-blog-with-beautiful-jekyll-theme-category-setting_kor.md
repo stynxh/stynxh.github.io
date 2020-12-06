@@ -3,8 +3,6 @@ layout: post
 published: true
 title: github blog with Beautiful Jekyll 테마 카테고리 설정
 date: '2019-09-29'
-category:
-  - research
 tags:
   - github blog
   - jekyll
@@ -35,17 +33,16 @@ navbar-links:
 ...
 ```
 
-{: .box-note}
-**Note:** 추후 카테고리가 추가될 경우, 새로운 카테고리 이름을 추가하여 _config.yml 파일을 다시 수정한다.
+> **Note:** 추후 카테고리가 추가될 경우, 새로운 카테고리 이름을 추가하여 _config.yml 파일을 다시 수정한다.
 
 
 ## Step 2
 
 /category 디렉토리를 만들고 각 카테고리 이름으로 .md 파일을 만든다.
 
-![2019-09-29-jekyll-theme-add-category_1.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_1.png)
+![2019-09-29-jekyll-theme-add-category_1.png]({{site.baseurl}}/assets/img/post_included/2019-09-29-jekyll-theme-add-category_1.png)
 
-![2019-09-29-jekyll-theme-add-category_2.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_2.png)
+![2019-09-29-jekyll-theme-add-category_2.png]({{site.baseurl}}/assets/img/post_included/2019-09-29-jekyll-theme-add-category_2.png)
 
 .md 파일의 내용은 다음과 같다.  
 
@@ -57,8 +54,7 @@ permalink: category/study
 ---
 ```
 
-{: .box-note}
-**Note:** 추후 카테고리가 추가될 경우, 새로운 카테고리 이름으로 .md 파일을 추가해준다.
+> **Note:** 추후 카테고리가 추가될 경우, 새로운 카테고리 이름으로 .md 파일을 추가해준다.
 
 
 ## Step 3
@@ -72,7 +68,7 @@ layout: default
 ---
 <ul class="posts-list">  
   {% assign category = page.category | default: page.title %}
-  <h4>Posts in {{ category }} ({{ site.categories[category].size }})</h4> 
+  <h4>Posts in {{ category }} ({{ site.categories[category].size }})</h4>
   {% for post in site.categories[category] %}   
     <li>
       <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -88,6 +84,6 @@ layout: default
 
 ## 결과
 
-![2019-09-29-jekyll-theme-add-category_3.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_3.png)
+![2019-09-29-jekyll-theme-add-category_3.png]({{site.baseurl}}/assets/img/post_included/2019-09-29-jekyll-theme-add-category_3.png)
 
-![2019-09-29-jekyll-theme-add-category_4.png]({{site.baseurl}}/img/attached-post/2019-09-29-jekyll-theme-add-category_4.png)
+![2019-09-29-jekyll-theme-add-category_4.png]({{site.baseurl}}/assets/img/post_included/2019-09-29-jekyll-theme-add-category_4.png)

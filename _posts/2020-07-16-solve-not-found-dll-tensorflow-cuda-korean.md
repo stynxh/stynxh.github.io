@@ -12,8 +12,7 @@ tags:
 
 CUDA  설치 후 텐서플로우를 이용해서 코딩을 하고 해당 코드를 실행시킬 때, 다음과 같은 에러 메시지를 볼 때가 있다.
 
-{: .box-error}
-Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+> Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
 
 ### 원인
 
@@ -41,10 +40,9 @@ Could not load dynamic library 'cusparse64_100.dll'; dlerror: cusparse64_100.dll
 
 1. CUDA 설치 폴더에 가서 현재 DLL 들을 확인한다. CUDA의 디폴트 설치 폴더는 다음과 같다.
 
-    {: .box-note}
-    C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin
+    > C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin
 
-    ![2020-07-16-solve-not-found-dll-tensorflow-cuda.png]({{site.baseurl}}/img/attached-post/2020-07-16-solve-not-found-dll-tensorflow-cuda.png)
+    ![2020-07-16-solve-not-found-dll-tensorflow-cuda.png]({{site.baseurl}}/assets/img/post_included/2020-07-16-solve-not-found-dll-tensorflow-cuda.png)
 
     Not found 오류가 발생한 `cudart64_100.dll` 파일은 없고 `cudart64_101.dll` 파일이 보인다.
 

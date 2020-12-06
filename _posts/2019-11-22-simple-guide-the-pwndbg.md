@@ -3,8 +3,6 @@ layout: post
 published: true
 title: simple guide the pwndbg
 date: '2019-11-22'
-category:
-  - research
 tags:
   - gdb
   - pwndbg

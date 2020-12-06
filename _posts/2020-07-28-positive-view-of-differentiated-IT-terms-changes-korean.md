@@ -11,7 +11,7 @@ tags:
 
 웹 서핑을 하던 중, **차별적 IT 용어를 변경** 한다는 기사를 보게 되었다.
 
-![2020-07-28-positive-view-of-differentiated-IT-terms-changes-korean.png]({{site.baseurl}}/img/attached-post/2020-07-28-positive-view-of-differentiated-IT-terms-changes-korean.png)
+![2020-07-28-positive-view-of-differentiated-IT-terms-changes-korean.png]({{site.baseurl}}/assets/img/post_included/2020-07-28-positive-view-of-differentiated-IT-terms-changes-korean.png)
 
 [ 출처 : [JTBC Hey.News 페이스북 페이지](https://www.facebook.com/Hey.News.JTBC/posts/582887075953899) ]
 

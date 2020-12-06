@@ -12,8 +12,7 @@ tags:
 ### 상황
 리눅스 환경에서 jupyter notebook 을 실행할 때, 다음의 에러 메시지를 보게 되는 경우가 있다.
 
-{: .box-error}
-OSError: [Errno 99] Cannot assign requested address
+> OSError: [Errno 99] Cannot assign requested address
 
 ```bash
 $ jupyter notebook
@@ -44,8 +43,7 @@ jupyter notebook을 실행할 때 IP 설정을 해주지 않아서 이 문제가
 ### 해결
 `jupyter notebook 을 실행`할 때 `IP 와 Port 를 설정`해준다.
 
-{: .box-note}
-jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root
+> jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root
 
 ```bash
 $ jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root

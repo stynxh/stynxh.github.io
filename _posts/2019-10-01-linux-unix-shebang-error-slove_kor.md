@@ -3,8 +3,6 @@ layout: post
 published: true
 title: Linux/Unix 환경에서 shebang 오류 해결
 date: '2019-10-01'
-category:
-  - troubleshooting
 tags:
   - shebang
   - troubleshooting
@@ -15,8 +13,7 @@ tags:
 ### 현상
 Linux/Unix 환경에서 `shebang` 이 포함되어있는 스크립트를 실행할 때, 다음과 같은 오류가 나는 경우가 있다.
 
-{: .box-error}
-**Error:** /usr/bin/env: ‘python3\r’: No such file or directory  
+> **Error:** /usr/bin/env: ‘python3\r’: No such file or directory  
 
 
 ```bash
@@ -57,4 +54,3 @@ hello world
 $
 
 ```  
-
