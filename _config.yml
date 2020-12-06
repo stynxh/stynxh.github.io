@@ -9,7 +9,9 @@ description: "The hacker way"                              # used by search engi
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: About programming, hacking, computing and information technology  # Change Blog header text
+header_text: The hacker way  # Change Blog header text
+#원래 텍스트는 이거인데 변경함
+#header_text: About programming, hacking, computing and information technology
 header_feature_image: assets/img/pexels/computer.jpeg
 footer_text: >
   Theme by by <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
