@@ -5,19 +5,17 @@ url: "https://stynxh.github.io"
 # THEME-SPECIFIC CONFIGURATION
 title: stynxh.Blog                                    # site's title
 description: "The hacker way"                              # used by search engines
-#avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
+avatar:                                                  # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
 header_text: The hacker way  # Change Blog header text
-#원래 텍스트는 이거인데 변경함
-#header_text: About programming, hacking, computing and information technology
 header_feature_image: assets/img/pexels/computer.jpeg
 footer_text: >
   Theme by by <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
 # Blog
-excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
+excerpt: true                      # Or "truncate" (first 250 characters), "false" to disable
 post_navigation: false
 color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
 
@@ -36,13 +34,6 @@ paginate_path: "/blog/page:num"
 
 # URL options
 permalink: /:year-:month-:day-:title/
-
-# PORTFOLIO
-# 필요없어서 주석처리함
-#collections:
-#  portfolio:
-#    output: true
-#    permalink: /:collection/:name
 
 # BUILD SETTINGS
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
