@@ -46,11 +46,11 @@ WSL(Windows Subsystem for Linux) is a compatibility layer for running Linux exec
 
 ### Install
 
-1. Download and install the [Linux kernel update package](https://docs.microsoft.com/windows/wsl/wsl2-kernel).
-2.  Download **Docker Desktop Installer.exe** from [Docker Hub](https://hub.docker.com/editions/community/docker-ce-desktop-windows/) and to run the installer.
-3. When prompted, ensure the **Enable WSL 2 Features** option is selected on the Configuration page.
-4. Follow the instructions on the installation wizard authorize the installer and proceed with the install.
-5. When the installation is successful, click Close to complete the installation process.
+1) Download and install the [Linux kernel update package](https://docs.microsoft.com/windows/wsl/wsl2-kernel).  
+2)  Download **Docker Desktop Installer.exe** from [Docker Hub](https://hub.docker.com/editions/community/docker-ce-desktop-windows/) and to run the installer.  
+3) When prompted, ensure the **Enable WSL 2 Features** option is selected on the Configuration page.  
+4) Follow the instructions on the installation wizard authorize the installer and proceed with the install.  
+5) When the installation is successful, click Close to complete the installation process.  
 
 ## Reference
 

@@ -47,11 +47,11 @@ Windows Subsystem for Linux 의 약어로 윈도우 10에서 네이티브로 리
 
 ### 설치 순서
 
-1. [Linux 커널 업데이트 패키지](https://docs.microsoft.com/ko-kr/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)를 다운로드하여 설치한다.
-2.  **[Docker Hub](https://hub.docker.com/editions/community/docker-ce-desktop-windows/) 에서 Docker Desktop Installer.exe** 를 다운로드 후 설치 **프로그램** 을 실행한다.
-3. 메시지가 표시되면 구성 페이지에서 **WSL 2 기능 사용** 옵션이 선택 되었는지 확인한다.
-4. 설치 마법사의 지침에 따라 설치 프로그램을 인증하고 설치를 계속한다.
-5. 설치가 완료되면 **닫기** 를 클릭 하여 설치 프로세스를 완료한다.
+1) [Linux 커널 업데이트 패키지](https://docs.microsoft.com/ko-kr/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)를 다운로드하여 설치한다.  
+2)  **[Docker Hub](https://hub.docker.com/editions/community/docker-ce-desktop-windows/) 에서 Docker Desktop Installer.exe** 를 다운로드 후 설치 **프로그램** 을 실행한다.  
+3) 메시지가 표시되면 구성 페이지에서 **WSL 2 기능 사용** 옵션이 선택 되었는지 확인한다.  
+4) 설치 마법사의 지침에 따라 설치 프로그램을 인증하고 설치를 계속한다.  
+5) 설치가 완료되면 **닫기** 를 클릭 하여 설치 프로세스를 완료한다.  
 
 ## 참고
 
