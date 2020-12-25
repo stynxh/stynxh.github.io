@@ -27,7 +27,7 @@ As of December 2020, show an error when attempting to install Docker using Docke
 > **Deprecated**  
 Docker Toolbox has been deprecated and is no longer in active development. Please use Docker Desktop instead
 
-Reference: [Docker docs](https://docs.docker.com/docker-for-windows/docker-toolbox/)
+Source: [Docker docs](https://docs.docker.com/docker-for-windows/docker-toolbox/)
 
 ## Installing Docker with Docker Desktop on Windows 10 Home
 
