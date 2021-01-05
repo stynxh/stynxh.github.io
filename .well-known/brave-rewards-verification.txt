@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: stynxh.github.io
+Token: 33e120dad8a188f882fc6378e4cb5e81195c0810db0fb984196246e5bee867e9
