@@ -43,4 +43,4 @@ exclude: [".jekyll-cache", ".idea", "vendor/*", "assets/node_modules"]
 remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
 
 #Include Brave
-include: .well-known
+include: [.well-known]
